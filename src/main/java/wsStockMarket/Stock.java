@@ -3,7 +3,7 @@ package wsStockMarket;
 import java.util.ArrayList;
 
 public class Stock implements Subject {
-	String tipo; // Nombre del stock
+	String tipo;
 	StockMarket mercado_acciones;
 	ArrayList<Observer> observers;
 	double precio;
